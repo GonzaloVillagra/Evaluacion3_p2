@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/camaraDbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#27715A"
+        android:text="Cedula frontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telefonoET" />
+
+    <Button
+        android:id="@+id/camaraTbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#27715A"
+        android:text="@string/cedula_trasera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camaraDbtn" />
+
+    <EditText
+        android:id="@+id/nombreCET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:text="@string/nombre_completo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cuentaSolicitudTV" />
+
+    <EditText
+        android:id="@+id/RUTTE4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:text="@string/rut"
+        app:layout_constraintStart_toStartOf="@+id/nombreCET"
+        app:layout_constraintTop_toBottomOf="@+id/nombreCET" />
+
+    <EditText
+        android:id="@+id/fechaNacimientoET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:text="@string/fecha_de_nacimiento"
+        app:layout_constraintStart_toStartOf="@+id/nombreCET"
+        app:layout_constraintTop_toBottomOf="@+id/RUTTE4" />
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:text="@string/email"
+        app:layout_constraintStart_toStartOf="@+id/nombreCET"
+        app:layout_constraintTop_toBottomOf="@+id/fechaNacimientoET" />
+
+    <EditText
+        android:id="@+id/telefonoET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:text="@string/telefono"
+        app:layout_constraintStart_toStartOf="@+id/nombreCET"
+        app:layout_constraintTop_toBottomOf="@+id/emailET" />
+
+    <TextView
+        android:id="@+id/cuentaSolicitudTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="137dp"
+        android:ems="10"
+        android:text="Solicitud de Cuenta"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/solicitudbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="24dp"
+        android:text="Solicitar"
+        android:backgroundTint="#27715A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camaraTbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

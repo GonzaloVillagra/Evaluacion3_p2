@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Evaluacion3</string>
+    <string name="usuario">usuario</string>
+    <string name="constrase_a">Constraseña</string>
+    <string name="ingresar">ingresar</string>
+    <string name="solicitar_cuenta">solicitar cuenta</string>
+    <string name="cedula_frontal">Cedula_Frontal</string>
+    <string name="celuda_trrasera">Celuda_Trrasera</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="rut">RUT</string>
+    <string name="fecha_de_nacimiento">Fecha de Nacimiento</string>
+    <string name="email">Email</string>
+    <string name="telefono">Telefono</string>
+    <string name="cedula_trasera">Cedula Trasera</string>
+</resources>
